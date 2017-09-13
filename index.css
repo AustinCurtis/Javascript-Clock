@@ -1,0 +1,152 @@
+body {
+	/*background-color: whitesmoke;*/
+	background-image: url('img/1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: darkgrey;
+}
+.wrap {
+	font-family: monospace;
+	margin-top: 15%;
+}
+.time {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	font-size: 7em;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+}
+.date span + span {
+	margin-left: 5px;
+}
+.date {
+	display:flex;
+	justify-content:center;
+	word-spacing: 0.3em;
+	font-size: 3em;
+	color: darkgrey;
+	font-family: 'Open Sans', sans-serif;
+}
+.format{
+	display:flex;
+	justify-content:center;
+	margin-top: 20px;
+}
+#box {
+	border: 1px solid black;
+	display:flex;
+	justify-content:center;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgba(245,245,245, .8);
+}
+p {
+	margin: 4px 10px 0px;
+}
+#twelve {
+	color: #2196F3;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2196F3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #A9A9A9;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #A9A9A9;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 24px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*
+.Clock {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: blue;
+	margin: 5% auto 0;
+	overflow-x: hidden;
+	position: relative;
+}
+.hHand {
+	width: 10px;
+	background-color: white;
+	height: 60px;
+	margin: 0 auto;
+	transform-origin: bottom;
+	transform: translateY(40px) rotate(0deg);
+	position: absolute;
+	left: 95px;
+
+}
+.mHand{
+	width: 10px;
+	background-color: white;
+	height: 60px;
+	margin: 0 auto;
+	transform-origin: bottom;
+	transform: translateY(40px) rotate(0deg);
+	position: absolute;
+	left: 95px;
+}
+.sHand {
+
+}
+.cap {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	margin: 0 auto;
+	background-color: red;
+	left: 92.5px;
+	top: 92.5px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px black;
+}
+*/
